@@ -20,7 +20,19 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 20px;
+  display: flex;
+  gap: 20px;
 }
+
+.division {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+}
+
 
 .icon {
   color: royalblue;
@@ -33,6 +45,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 1 0 auto;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
 }
 
 .close-button {
